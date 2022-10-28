@@ -3,10 +3,15 @@ import Title from '../src/components/title/Title'
 function HomePage () {
     return (
         <div>
-            <Title />
-            <Title />
-            <Title />
-            Hello world, NextJs + ReactJs
+            <Title>
+                Um titulo
+            </Title>
+            <p>Um paragrafro</p>
+            <Title>
+                Outro titulo
+            </Title>
+            <p>Outro paragrafo</p>
+
         </div>
     )
 }
